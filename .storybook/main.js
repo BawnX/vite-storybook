@@ -1,6 +1,5 @@
 const { loadConfigFromFile, mergeConfig } = require("vite");
 const vueI18n = require("@intlify/vite-plugin-vue-i18n").default;
-const eslintPlugin = require("vite-plugin-eslint").default;
 const path = require("path");
 
 module.exports = {
@@ -38,7 +37,6 @@ module.exports = {
           compositionOnly: false,
           runtimeOnly: false,
         }),
-        eslintPlugin(),
       ],
     });
   },

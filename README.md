@@ -75,12 +75,12 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 │   ├── main.ts
 │   ├── shims-vue.d.ts
 │   ├── stories
-│   │   ├── BasicButton.stories.tsx
+│   │   ├── BasicButton.stories.ts
 │   │   ├── BasicButton.vue
-│   │   ├── Header.stories.jsx
+│   │   ├── Header.stories.js
 │   │   ├── Header.vue
 │   │   ├── Introduction.stories.mdx
-│   │   ├── Page.stories.jsx
+│   │   ├── Page.stories.js
 │   │   ├── Page.vue
 │   │   ├── assets
 │   │   │   ├── code-brackets.svg
