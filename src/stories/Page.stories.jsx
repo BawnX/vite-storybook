@@ -1,4 +1,4 @@
-import MyPage from "./Page.vue";
+import MyPage from "./PageComponent.vue";
 import * as HeaderStories from "./Header.stories";
 
 export default {
