@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  darkMode: "media",
+  darkMode: "class",
   theme: {
     screens: {
       sm: "480px",
@@ -12,6 +13,15 @@ module.exports = {
     colors: {
       "dark-color": "hsl(202.2,76.8%,18.6%)",
       "light-color": "hsl(0,0%,94.1%)",
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
+      gray: colors.slate,
+      green: colors.emerald,
+      purple: colors.violet,
+      yellow: colors.amber,
+      pink: colors.fuchsia,
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
